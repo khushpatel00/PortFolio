@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nestify </title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- header Start -->
+    <header class="position-sticky top-0">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="col-md-1 col-3"><a href="#"><img src="assets/images/logo.png" class="img-fluid" alt=""></a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-11">
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cart.html">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="discover.html">Discover</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="forgot.html">Forgot Password?</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header End -->
+    <!-- banner start -->
+    <section class="banner mb-5">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-lg-5 col-12 p-5 px-3 rounded-5 my-5 bannerImgBG">
+                    <span class="text-black h3 d-flex p-2">New Deals</span>
+                    <div class="position-relative rounded-5">
+                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+
+                            <div
+                                class="rating bg-white rounded-pill px-4 p-3 m-2 text-black position-absolute z-2 top-0 end-0 ">
+                                <i class="fa-solid fa-star text-warning"></i>
+                                4.9
+                            </div>
+                            <div class="product-img rounded-5">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <span class="position-absolute z-2 top-0 start-0 p-4">$508</span>
+                                        <p class="position-absolute z-2 top-0 start-0 py-5 px-4">Long Chair</p>
+                                        <img src="assets/images/sofaBanner.png" class="img-fluid p-5 my-5" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <span class="position-absolute z-2 top-0 start-0 p-4">$508</span>
+                                        <p class="position-absolute z-2 top-0 start-0 py-5 px-4">Long Chair</p>
+                                        <img src="assets/images/sofaBannerBG.png" class="img-fluid p-5 my-5" alt="">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <span class="position-absolute z-2 top-0 start-0 p-4">$300</span>
+                                        <p class="position-absolute z-2 top-0 start-0 py-5 px-4">Sofa</p>
+                                        <img src="assets/images/sofaBanner2.png" class="img-fluid p-5 my-5" alt="">
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <!-- <img src="assets/images/sofaBanner.png" class="img-fluid p-5" alt=""> -->
+                            <div class="col justify-content-center d-flex">
+                                <div style="width: 95% ;"
+                                    class="icons position-absolute bottom-0 d-flex justify-content-between border border-1 rounded-pill m-3 align-items-center p-2">
+                                    <button class="border-0 bg-transparent" type="button"
+                                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev"><i
+                                            class="fa-solid fa-arrow-left bg-white p-3 rounded-circle"></i></button>
+                                    Slide left and right
+                                    <button class="border-0 bg-transparent" type="button"
+                                        data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next"><i
+                                            class="fa-solid fa-arrow-right bg-white p-3 rounded-circle"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12 p-5 rounded-5 px-3">
+                    <div class="product position-relative rounded-5">
+                        <span class="text-black d-flex p-4"> Great Value Deals</span>
+                        <span class="position-absolute top-0 start-0 py-5 px-4">
+                            Find items on sale with 50-80% off
+                        </span>
+                        <div
+                            class="rating bg-white rounded-pill px-4 z-3 p-3 m-2 text-black position-absolute bottom-0 start-0 ">
+                            <i class="fa-solid fa-tag pe-2"></i>
+                            4.9
+                        </div>
+                        <div class="product-img mt-2 rounded-5">
+                            <img src="assets/images/chairBanner.png" class="img-fluid p-5" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="position-relative product rounded-5">
+                        <span class="rounded-pill border d-inline-block p-3 m-3">GET A BONUS</span>
+                        <i class="fa-solid fa-arrow-right position-absolute end-0 top-0 m-3 border p-3 rounded-circle bg-light"
+                            style="transform: rotate(-45deg);"></i>
+                        <p class="opacity-100 p-3">Discover <span class="opacity-50">our latest exclusive items</span>
+                        </p>
+                        <form>
+                            <div class="mb-3 px-3">
+                                <input type="email" class="form-control rounded-pill bg-transparent"
+                                    id="exampleFormControlInput1" placeholder="* Email" required>
+                            </div>
+
+                            <div class="col d-flex justify-content-center"><button
+                                    class="rounded-pill bg-black uniButton text-white p-3 mb-3" style="width: 80%;"
+                                    type="submit">Submit</button></div>
+                        </form>
+                    </div>
+                    <div class="position-relative product rounded-5 my-3">
+                        <span class="rounded-pill border d-inline-block p-3 m-3">Sell with us</span>
+                        <i class="fa-solid fa-arrow-right position-absolute end-0 top-0 m-3 border p-3 rounded-circle bg-light"
+                            style="transform: rotate(-45deg);"></i>
+                        <p class="opacity-100 p-3">Sell <span class="opacity-50">your own items Online</span>
+                        </p>
+                        <form>
+                            <div class="mb-3 px-3">
+                                <input type="email" class="form-control rounded-pill bg-transparent"
+                                    id="exampleFormControlInput1" placeholder="Work Email">
+                            </div>
+                        </form>
+
+                        <div class="col d-flex justify-content-center"><button
+                                class="rounded-pill uniButton bg-black text-white p-3 mb-3" style="width: 80%;"
+                                id="liveAlertBtn">Create Seller
+                                Account</button>
+                        </div>
+                        <div id="liveAlertPlaceholder" class="mt-2"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner end -->
+    <section class="discover mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <p class="h1"> Discover more. <span class="opacity-50">Good things are waiting for you!</span></p>
+                </div>
+                <div class="row flex-nowrap overflow-auto">
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg1.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Up to 80% off <br> retail</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg2.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Give the gift <br> of choice</p>
+                            <a href="productDetail.html"
+                                class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg3.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">The latest from<br> top brands</p>
+                            <a href="productDetail.html"
+                                class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg4.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Beauty Collection</p>
+                            <a href="productDetail.html"
+                                class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="arrival my-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <p class="h1"> New Arrivals. <span class="opacity-50">REY backpacks & bagsss</span></p>
+                </div>
+                <div class="col-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-12 col-md-6">
+                            <div class="arrivalImg position-relative rounded-5">
+                                <a href="productDetail.html">
+                                    <img src="assets/images/arrivalImg1.webp" class="img-fluid rounded-5" alt="">
+                                    <div class="likeIcon">
+                                        <i
+                                            class="fa-regular fa-heart rounded-circle bg-light border border-2 p-3 position-absolute top-0 left-0 m-3"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="arrivalContent m-3 position-relative">
+                                <div class="d-flex">
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-primary"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-danger"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-success"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-warning"></div>
+                                </div>
+                                <span class="h3">Dark Denim Top</span>
+                                <p class="font-thin">Green</p>
+                                <span class="rounded-5 border border-success p-2 px-3 text-success">$60.00</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 col-md-6">
+                            <div class="arrivalImg position-relative rounded-5">
+                                <a href="productDetail.html">
+                                    <img src="assets/images/arrivalImg2.webp" class="img-fluid rounded-5" alt="">
+                                    <div class="likeIcon">
+                                        <i
+                                            class="fa-regular fa-heart rounded-circle bg-light border border-2 p-3 position-absolute top-0 left-0 m-3"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="arrivalContent m-3 position-relative">
+                                <div class="d-flex">
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-primary"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-danger"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-secondary-subtle"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-success"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-warning"></div>
+                                </div>
+                                <span class="h3">The minimal Snowboard</span>
+                                <p class="font-thin">Black</p>
+                                <span class="rounded-5 border border-success p-2 px-3 text-success">$886.00</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 col-md-6">
+                            <div class="arrivalImg position-relative rounded-5">
+                                <a href="productDetail.html">
+                                    <img src="assets/images/arrivalImg3.jpg" class="img-fluid rounded-5" alt="">
+                                    <div class="likeIcon">
+                                        <i
+                                            class="fa-regular fa-heart rounded-circle bg-light border border-2 p-3 position-absolute top-0 left-0 m-3"></i>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="arrivalContent m-3 position-relative">
+                                <div class="d-flex">
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-secondary"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-primary"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-warning"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-success"></div>
+                                </div>
+                                <span class="h3">Classic Varsity Top</span>
+                                <p class="font-thin">Black</p>
+                                <span class="rounded-5 border border-success p-2 px-3 text-success">$60.00</span>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-12 col-md-6">
+                            <a href="productDetail.html">
+                                <div class="arrivalImg position-relative rounded-5">
+                                    <img src="assets/images/arrivalImg4.webp" class="img-fluid rounded-5" alt="">
+                                    <div class="likeIcon">
+                                        <i
+                                            class="fa-regular fa-heart rounded-circle bg-light border border-2 p-3 position-absolute top-0 left-0 m-3"></i>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="arrivalContent m-3 position-relative">
+                                <div class="d-flex">
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-danger"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-success"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-secondary-subtle"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-primary"></div>
+                                    <div class="colorIcon m-1 p-2 rounded-circle d-flex bg-info"></div>
+                                </div>
+                                <span class="h3">Blue Silk Tuxedo</span>
+                                <p class="font-thin">Pink</p>
+                                <span class="rounded-5 border border-success p-2 px-3 text-success">$70.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="process" style="margin: 150px 0;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="rounded-5 p-5 px-2 bg-light mt-2">
+                        <div class="processImg"></div>
+                        <span class="text-danger bg-danger-subtle rounded-5 p-2 ">Step 1</span>
+                        <span class="h4 d-block mt-3">Filter & Discover</span>
+                        <p class="p-3 mt-2 font-thin">Smart Filtering and suggestions make it easy to find</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="rounded-5 p-5 px-2 bg-light mt-2">
+                        <div class="processImg"></div>
+                        <span class="text-success bg-success-subtle rounded-5 p-2 ">Step 2</span>
+                        <span class="h4 d-block mt-3">Add to Bag</span>
+                        <p class="p-3 mt-2 font-thin">Easily select the correct items and add them to the cart.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="rounded-5 p-5 px-2 bg-light mt-2">
+                        <div class="processImg"></div>
+                        <span class="text-danger bg-danger-subtle rounded-5 p-2 ">Step 3</span>
+                        <span class="h4 d-block mt-3">Fast shipping</span>
+                        <p class="p-3 mt-2 font-thin">The carrier will confirm and ship quickly to you.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-center">
+                    <div class="rounded-5 p-5 px-2 bg-light mt-2">
+                        <div class="processImg"></div>
+                        <span class="text-primary bg-primary-subtle rounded-5 p-2 ">Step 4</span>
+                        <span class="h4 d-block mt-3">Enjoy the product</span>
+                        <p class="p-3 mt-2 font-thin">Have fun and enjoy your 5-star quality products.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="likings">
+        <div class="container">
+            <p class="opacity-100 h1 p-3">You <span class="opacity-50">may also like</span></p>
+            <div class="row flex-nowrap overflow-auto">
+                <div class="col-lg-5 col-10 mb-3">
+                    <div class="discoverCard rounded-5 p-5 ms-auto"
+                        style="background-image: url(assets/images/maylike1.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h3 ">Up to 80% off <br> retail</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-10 mb-3">
+                    <div class="discoverCard rounded-5 p-5 ms-auto"
+                        style="background-image: url(assets/images/maylike2.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h3 ">Give the gift <br> of choice</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-10 mb-3">
+                    <div class="discoverCard rounded-5 p-5 ms-auto"
+                        style="background-image: url(assets/images/maylike3.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h3 ">The latest from<br> top brands</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 col-10 mb-3">
+                    <div class="discoverCard rounded-5 p-5 ms-auto"
+                        style="background-image: url(assets/images/maylike4.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h3 ">Beauty Collection</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="trending">
+        <div class="container">
+            <p class="opacity-100 h1 mt-5 p-3">What's <span class="opacity-50">Trending now </span>
+            <div class="row">
+                <div class="col-lg-4 col-12 col-md-6 mb-3">
+                    <div class="discoverCard rounded-5 p-5 pb-4 ms-auto"
+                        style="background-image: url(assets/images/discoverImg1.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h5 ">Up to 80% off <br> retail</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-1">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12 col-md-6 mb-3">
+                    <div class="discoverCard rounded-5 p-5 pb-4 ms-auto"
+                        style="background-image: url(assets/images/discoverImg2.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h5 ">Give the gift <br> of choice</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-1">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12 col-md-6 mb-3">
+                    <div class="discoverCard rounded-5 p-5 pb-4 ms-auto"
+                        style="background-image: url(assets/images/discoverImg3.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h5 ">The latest from<br> top brands</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-1">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12 col-md-6 mb-3">
+                    <div class="discoverCard rounded-5 p-5 pb-4 ms-auto"
+                        style="background-image: url(assets/images/discoverImg4.png);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h5 ">Sports Collection</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-1">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12 col-md-6 mb-3">
+                    <div class="discoverCard rounded-5 p-5 pb-4 ms-auto"
+                        style="background-image: url(assets/images/arrivalImg5.webp);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h5 ">Beauty Collection</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-1">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12 col-md-6 mb-3">
+                    <div class="discoverCard rounded-5 p-5 pb-4 ms-auto"
+                        style="background-image: url(assets/images/cartImg.webp);">
+                        <span class="font-thin ">Collection</span>
+                        <p class="h5 ">Clothing Collection</p>
+                        <a href="productDetail.html"
+                            class="uniButton bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-1">
+                            See Collection
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blog">
+        <div class="container">
+            <p class="opacity-100 h1 mt-5 p-3">The latest news. <span class="opacity-50">From the Nestify blog
+                    <div class="row">
+                        <div class="col-lg-5 col-12">
+                            <div class="blogImg">
+                                <img src="assets/images/blogImg.webp" class="img-fluid rounded-5" alt="">
+                            </div>
+                            <div class="blogContent">
+                                <span class="h3 p-3 d-block mt-3">5 New Year's Resolution For 2025 </span>
+                                <p class="font-thin ps-3">
+                                    In the morning, consistency is key. To keep your internal clock balanced and your
+                                    circadian rhythm stabilized, try waking up at the same time...
+                                </p>
+                                <div class="d-flex p-3">
+                                    <div class="time opacity-50">
+                                        Sun Mar 31 2025
+                                    </div>
+                                    <span class="opacity-75 ps-4">Life style</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-7 col-12 row">
+                            <div class="miniBlog bg-light rounded-5 my-3 ms-3 p-3 row">
+                                <div class="col-lg-8 col-12">
+                                    <div class=" h4">Certified cruelty-free: we've joined Leaping Bunny
+                                        <p class="font-thin lead pt-3">Since day one, our mission has been to create the
+                                            highest-quality products at approachable...</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <div class="time opacity-50">
+                                            Sun Mar 31 2025
+                                        </div>
+                                        <span class="opacity-75 ps-4">Simple</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="bannerImg">
+                                        <img src="assets/images/blogImg2.webp" alt="" class="img-fluid rounded-5 p-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="miniBlog bg-light rounded-5 my-3 ms-3 p-3 row">
+                                <div class="col-lg-8 col-12">
+                                    <div class=" h4">Everything you need to know about Eye Stick 2.0
+                                        <p class="font-thin lead pt-3">We like to think of our Eye Stick as our secret
+                                            weapon.
+                                            It’s ultra-portable, offers a cooling and...</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <div class="time opacity-50">
+                                            Sun Mar 31 2025
+                                        </div>
+                                        <span class="opacity-75 ps-4">Simple</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="bannerImg">
+                                        <img src="assets/images/blogImg3.webp" alt="" class="img-fluid rounded-5 p-3">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="miniBlog bg-light rounded-5 my-3 ms-3 p-3 row">
+                                <div class="col-lg-8 col-12">
+                                    <div class=" h4">Crafting a design system for a multiplanetary future
+                                        <p class="font-thin lead pt-3">Planetaria we needed to create a brand that would
+                                            still
+                                            inspire us 100 years from now when...</p>
+                                    </div>
+                                    <div class="d-flex ">
+                                        <div class="time opacity-50">
+                                            Sun Mar 31 2025
+                                        </div>
+                                        <span class="opacity-75 ps-4">Simple</span>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-12">
+                                    <div class="bannerImg">
+                                        <img src="assets/images/blogImg4.webp" alt="" class="img-fluid rounded-5 p-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </span>
+        </div>
+    </section>
+
+
+
+    <footer>
+        <hr class="pb-1 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">Search</p>
+                                <ul class="list-unstyled" class="list-unstyled">
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">search</a></li>
+                                    <li class="font-thin"><a href="#">All collection</a></li>
+                                    <li class="font-thin"><a href="#">Backpack</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">Home Page</p>
+                                <ul class="list-unstyled">
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">Search</a></li>
+                                    <li class="font-thin"><a href="#">Backpack</a></li>
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">All Collection</p>
+                                <ul class="list-unstyled">
+                                    <li class="font-thin"><a href="#">recycled Blanket</a></li>
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">Search</a></li>
+                                    <li class="font-thin"><a href="#">All Collection</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">News</p>
+                                <ul class="list-unstyled">
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">Search</a></li>
+                                    <li class="font-thin"><a href="#">Backpack</a></li>
+                                    <li class="font-thin"><a href="#">News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="rounded-5 p-5 px-3 mb-3 pb-0 bg-light">
+                        <span class="h4">Stay up to date</span>
+                        <p class="font-thin">Subscribe to our newsletter to get the latest updates and special offers.
+                        </p>
+                        <form>
+                            <div class="mb-3 px-3">
+                                <input type="email" class="form-control rounded-pill bg-transparent"
+                                    id="exampleFormControlInput1" placeholder="Email" required>
+                            </div>
+
+                            <div class="col d-flex justify-content-center"><button type="submit"
+                                    class="rounded-pill uniButton bg-black text-white p-3 mb-3"
+                                    style="width: 80%;">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+        const appendAlert = (message, type) => {
+            const wrapper = document.createElement('div')
+            wrapper.innerHTML = [
+                `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+                `   <div>${message}</div>`,
+                '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+                '</div>'
+            ].join('')
+
+            alertPlaceholder.append(wrapper)
+        }
+
+        const alertTrigger = document.getElementById('liveAlertBtn')
+        if (alertTrigger) {
+            alertTrigger.addEventListener('click', () => {
+                appendAlert('Sorry, But this service is not available Right now', 'warning')
+            })
+        }
+    </script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Nestify </title>
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- header Start -->
+    <header class="position-sticky top-0">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <div class="col-md-1 col-3"><a href="index.html"><img src="assets/images/logo.png" class="img-fluid"
+                            alt=""></a></div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="col-11">
+                    <div class="collapse navbar-collapse " id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href="cart.html">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="discover.html">Discover</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="login.html">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="forgot.html">Forgot Password?</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- header End -->
+    <!-- banner start -->
+
+    <section class="cart">
+        <div class="container">
+            <div class="row mt-5">
+                <p class="h2 fontHeavy">Shopping Cart</p>
+                <nav aria-label="breadcrumb">
+                    <ol class="breadcrumb mt-2 mb-5">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item active" aria-current="page">Shopping Cart</li>
+                    </ol>
+                </nav>
+                <hr class="my-3">
+                <div class="col-lg-7 col-12 row">
+                    <div class="d-flex row align-items-center justify-content-between">
+                        <div class="d-flex col-lg-8 col-12">
+                            <img src="assets/images/cartImg.webp" class="img-fluid cartImg img-thumbnail m-auto p-0" alt="">
+                            <div class="cartContent m-auto fontHeavy">
+                                Classic Leather Jacket
+                                <span class="font-thin mb-2 d-block">Red / S</span>
+                                <span class="rounded-pill border font-thin px-3 py-1"> <i class="fa-solid fa-check"></i> In Stock</span>
+                            </div>
+                        </div>
+
+
+                        <div class="rangeSelector rounded d-flex col-lg-2 col-6 m-auto my-3 align-items-center py-2 justify-content-evenly border">
+                            <i class="fa-solid fa-minus px-3"></i>
+                            1
+                            <i class="fa-solid fa-plus px-3"></i>
+                        </div>
+
+
+                        <div><span class="priceButton d-flex col-lg-2 col-6 m-auto my-3 p-2  rounded">$80.00</span></div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-4 col-12 subtotal position-relative m-auto">
+                    <div class="p-5">
+                        <div class="d-flex justify-content-between">
+                            <span class="fontHeavy">Subtotal</span>
+                            <span class="fontHeavy">$80.00</span>
+                        </div>
+                        <p class="font-thin">Shipping, discounts, will be calculated at checkout.</p>
+                        <a href="checkout.html" class="text-white fontHeavy bg-black px-5 p-3 d-flex rounded-pill">Checkout</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="Suggestion">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-5">
+                    <p class="h1"> Discover more. <span class="opacity-50">People also purchased</span></p>
+                </div>
+                <div class="row flex-nowrap overflow-auto">
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg1.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Up to 80% off <br> retail</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg2.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Give the gift <br> of choice</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg3.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">The latest from<br> top brands</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/discoverImg4.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Beauty Collection</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/maylike1.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Up to 80% off <br> retail</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-10 mb-3">
+                        <div class="discoverCard rounded-5 p-5 ms-auto"
+                            style="background-image: url(assets/images/maylike2.png);">
+                            <span class="font-thin ">Collection</span>
+                            <p class="h3 ">Give the gift <br> of choice</p>
+                            <a href="productDetail.html"
+                                class="button bg-black text-white p-3 px-5 text-decoration-none rounded-pill d-inline-block mt-5 m-2">
+                                See Collection
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <footer>
+        <hr class="pb-1 pt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <div class="col-12">
+                        <div class="row">
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">Search</p>
+                                <ul class="list-unstyled" class="list-unstyled">
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">search</a></li>
+                                    <li class="font-thin"><a href="#">All collection</a></li>
+                                    <li class="font-thin"><a href="#">Backpack</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">Home Page</p>
+                                <ul class="list-unstyled">
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">Search</a></li>
+                                    <li class="font-thin"><a href="#">Backpack</a></li>
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">All Collection</p>
+                                <ul class="list-unstyled">
+                                    <li class="font-thin"><a href="#">recycled Blanket</a></li>
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">Search</a></li>
+                                    <li class="font-thin"><a href="#">All Collection</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-lg-3 py-3 col-6">
+                                <p class="h5">News</p>
+                                <ul class="list-unstyled">
+                                    <li class="font-thin"><a href="#">Home Page</a></li>
+                                    <li class="font-thin"><a href="#">Search</a></li>
+                                    <li class="font-thin"><a href="#">Backpack</a></li>
+                                    <li class="font-thin"><a href="#">News</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="rounded-5 p-5 px-3 mb-3 pb-0 bg-light">
+                        <span class="h4">Stay up to date</span>
+                        <p class="font-thin">Subscribe to our newsletter to get the latest updates and special offers.
+                        </p>
+                        <form>
+                            <div class="mb-3 px-3">
+                                <input type="email" class="form-control rounded-pill bg-transparent"
+                                    id="exampleFormControlInput1" placeholder="Email" required>
+                            </div>
+
+                            <div class="col d-flex justify-content-center"><button type="submit"
+                                    class="rounded-pill bg-black text-white p-3 mb-3"
+                                    style="width: 80%;">Submit</button></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
