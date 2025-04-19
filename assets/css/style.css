@@ -70,6 +70,9 @@ ul li .nav-link:hover::before {
 a {
   display: inline-block !important;
 }
+
+
+
 #preloader{
   width: 100%;
   height: 100vh;
@@ -80,7 +83,7 @@ a {
   width: var(--dim);
   height: var(--dim);
   position: relative;
-  animation: spin988 2s linear infinite;
+  animation: spinner 2s linear infinite;
 }
 .preloader .circle {
   --color: #fff;
@@ -112,7 +115,7 @@ a {
   right: 0;
 }
 
-@keyframes spin988 {
+@keyframes spinner {
   0% {
     transform: scale(1) rotate(0);
   }
